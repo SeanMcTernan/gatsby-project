@@ -5,9 +5,14 @@ const Header = () => {
     return (
         <header>
             <h1>Sean Mc Ternan's Portfolio Site</h1>
-              <Link to="/about">About</Link>
-              <Link to="/blog">Blog</Link>
-              <Link to="/contact">Contact</Link>
+            <nav>
+            <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/blog">Blog</Link></li>
+            </ul>
+            </nav>
         </header>
     )
 }
